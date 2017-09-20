@@ -35,6 +35,7 @@
     "watch:js-umd": "rollup -c scripts/umd.rollup.config.js -w",
     "watch:test": "rollup -c scripts/test.rollup.config.js -w",
     "prepublish": "npm run build",
+    "prepare": "npm run build",
     "prepush": "npm run lint",
     "precommit": "git add README.md"
   },
